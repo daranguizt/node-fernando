@@ -1,3 +1,3 @@
-# Info
+# INFO
 
-This folder contains the text files to be made.
+folder that contains the multiplications 
