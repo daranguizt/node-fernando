@@ -1,0 +1,16 @@
+{
+  "name": "04-node-core",
+  "version": "0.0.1",
+  "description": "Simple multiplication table to txt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3"
+  },
+  "author": "Diego Aránguiz",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.0.1"
+  }
+}
