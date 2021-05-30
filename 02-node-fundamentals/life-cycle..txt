@@ -1,0 +1,16 @@
+Life cycle
+
+node first executes main function (just as java, etc)
+main executes line per line (call stack).
+every line is either executed or saved for later execution.
+
+In case of async funcs, the processes enter the node apis 
+(process stack), and node is checking for their resolves.
+
+When a process resolves, it goes to the callback queue.
+The callback queue is executed after the call stack finishes,
+by reading all the code. 
+
+The processes in the queues re enter the call stack for execution.
+
+If there's nothing to execute in queues, the program finishes.
